@@ -16,7 +16,7 @@ For example you want to get access from remote server with ip = a.b.c.d to your 
 
 1. Create the RSA Key Pair
 
-       If there isn't public ssh key in ~/.ssh/id_rsa then you need to create this one:
+    If there is no ssh public key in ~ / .ssh / id_rsa, you need to create it:
 
 		$ ssh-keygen -t rsa
 
